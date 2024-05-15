@@ -41,7 +41,7 @@ function deleteAll(){
     gtdiv.innerHTML = ""
 }
 function editList(btn){
-    btn.parentNode.childNodes[0].nodeValue = prompt();
+    btn.parentNode.childNodes[0].nodeValue = prompt("Edit Value ", btn.parentNode.childNodes[0].nodeValue);
 }
 
 function delList(btn){
